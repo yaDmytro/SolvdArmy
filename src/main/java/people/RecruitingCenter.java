@@ -9,13 +9,21 @@ import interfaces.Sorting;
 import people.requirementsForService.*;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.ArrayList;
+import org.apache.commons.lang3.*;
+import static org.apache.commons.io.FileUtils.writeStringToFile;
 
 
 public class RecruitingCenter implements Checkable, Counter, Sorting {
 
+    final String newRecruits = "newRecruits.txt";
+    final File file = new File("F:\\projects\\Solvd\\solvdArmyExample\\",newRecruits);
+    final String wrongNewRecruits = "wrongNewRecruits";
+    Recruit r;
     private static final Logger LOGGER = LogManager.getLogger(Main.class.getName());
-
     static public ArrayList<Recruit> listRecruits = new ArrayList<>();
 
     //requirements
@@ -148,37 +156,66 @@ public class RecruitingCenter implements Checkable, Counter, Sorting {
     public void check(Recruit r) {
         boolean success = true;
         while(success){
-            if (r.getFirstName().equals("") || r.getFirstName().equals(" ")){
+
+            boolean status = true;
+            if (StringUtils.isEmpty(r.getFirstName()) || StringUtils.isBlank(r.getFirstName())){
 
                 LOGGER.error("New error detected: ", new WrongNameEnteredException());
-                success = false;
+                status = false;
+                String updatedName = StringUtils.deleteWhitespace(r.getFirstName());
+                r.setFirstName(updatedName);
 
-            } else if(r.getLastName().equals("") || r.getLastName().equals(" ")){
+            }
+            if(StringUtils.isEmpty(r.getLastName()) || StringUtils.isBlank(r.getLastName())){
 
                 LOGGER.error("New error detected: ", new WrongLastNameEnteredException());
-                success = false;
+                status = false;
+                String updatedLastName = StringUtils.deleteWhitespace(r.getLastName());
+                r.setLastName(updatedLastName);
 
-            } else if(r.getAge() <= 18 || r.getAge() > 65){
+            }
+            if(r.getAge() <= 18 || r.getAge() > 65){
 
                 LOGGER.error("New error detected: ", new WrongAgeEnteredException());
-                success = false;
+                status = false;
 
-            } else if(r.getWeight() < 45.0 || r.getWeight() > 175.0){
+            }
+            if(r.getWeight() < 45.0 || r.getWeight() > 175.0){
 
                 LOGGER.error("New error detected: ", new WrongWeightEnteredException());
-                success = false;
+                status = false;
 
-            } else if(r.getHeight() <= 150.0 || r.getHeight() > 220.0 ){
+            }
+            if(r.getHeight() <= 150.0 || r.getHeight() > 220.0 ){
 
                 LOGGER.error("New error detected: ", new WrongHeightEnteredException());
-                success = false;
+                status = false;
 
-            }else{
+            }
+            if(status){
 
                 listRecruits.add(r);
+                /*
+                try {
+                    writeStringToFile(file, String.valueOf(r), true);
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+                */
+
+                try(FileWriter writer = new FileWriter(file, true)){
+                    writer.write(listRecruits.size() +". " + r + "\n");
+                    writer.flush();
+                }catch (IOException ex){
+                    LOGGER.error("we have IOException in file whiter");
+                }
                 LOGGER.info("Added new Recruit to Recruit List");
+
+                success = false;
+            } else{
                 success = false;
             }
+
         }
     }
 }

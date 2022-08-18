@@ -15,12 +15,12 @@ public class Main {
 
         RecruitingCenter rc = new RecruitingCenter();
 
-        Recruit person1 = new Recruit("Oleg", "Yakubov", -20, Sex.m, 75.5, 175.5,true, ArmyFields.ARTILLERY);
-        Recruit person2 = new Recruit(" ", "Tarasenko", 25, Sex.f, 45, 155.5,false, ArmyFields.INFANTRY);
+        Recruit person1 = new Recruit("", " ", -20, Sex.m, 75.5, 175.5,true, ArmyFields.ARTILLERY);
+        Recruit person2 = new Recruit(null, "\n \t", 25, Sex.f, 45, 155.5,false, ArmyFields.INFANTRY);
         Recruit person3 = new Recruit("Dmytro", "Taranov", 41, Sex.m, 73.0, 173.7,true, ArmyFields.AIRBORNE);
         Recruit person4 = new Recruit("Olena", "Ostapenko", 27, Sex.f, -75.0, -175.5,false, ArmyFields.AIRFORCES);
         Recruit person5 = new Recruit("Igor", "Yakubov", 37, Sex.m, 83.1, 181.2,true, ArmyFields.AIRBORNE);
-        Recruit person6 = new Recruit("Oksana", "Yakubovska", 21, Sex.f, 63.0, 185.5,false, ArmyFields.AIRFORCES);
+        Recruit person6 = new Recruit("      \n    Oksana", "Yakubovska", 21, Sex.f, 63.0, 185.5,false, ArmyFields.AIRFORCES);
         Recruit person7 = new Recruit("Mykola", "Kutepov", 31, Sex.m, 90.2, 174.7,true, ArmyFields.INFANTRY);
         Recruit person8 = new Recruit("Ignhat", "Gaevskyi", 29, Sex.m, 66.5, 172.3,false, ArmyFields.PANZER);
         Recruit person9 = new Recruit("Natalia", "Mayevska", 22, Sex.f, 55.5, 170.7,false, ArmyFields.ARTILLERY);

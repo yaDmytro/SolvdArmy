@@ -4,8 +4,6 @@ import java.util.Objects;
 
 public class Recruit extends Person{
 
-    Person p;
-
     private ArmyFields preferredField;
 
     public Recruit(){}
@@ -36,12 +34,11 @@ public class Recruit extends Person{
     public int hashCode() {
         return Objects.hash(super.hashCode(), getPreferredField());
     }
-    /*
+
     @Override
     public String toString() {
-        return "Recruit{ " + "NAME: "+ p.getFirstName() + " " + p.getLastName() + "; " + "age = " + p.getAge() + ";" + " sex = " + p.getSexType() + ";"
-                + " height = " + p.getHeight() + ";" + " weight = " + p.getWeight() + ";" + " preferredField = " + preferredField + "; " + '}';
+        return "Recruit{ " + "NAME: "+ getFirstName() + " " + getLastName() + "; " + "age = " + getAge() + ";" + " sex = " + getSexType() + ";"
+                + " height = " + getHeight() + ";" + " weight = " + getWeight() + ";" + " preferredField = " + preferredField + "; " + '}';
     }
 
-     */
 }
