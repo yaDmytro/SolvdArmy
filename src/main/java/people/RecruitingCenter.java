@@ -3,7 +3,7 @@ package people;
 import armyFields.*;
 import com.sun.tools.javac.Main;
 import interfaces.Checkable;
-import com.solvd.army.interfaces.Counter;
+import interfaces.Counter;
 import exeptions.*;
 import interfaces.Sorting;
 import people.requirementsForService.*;
@@ -16,13 +16,10 @@ import java.util.ArrayList;
 import org.apache.commons.lang3.*;
 import static org.apache.commons.io.FileUtils.writeStringToFile;
 
-
-public class RecruitingCenter implements Checkable, Counter, Sorting {
+public class RecruitingCenter implements Checkable {
 
     final String newRecruits = "newRecruits.txt";
-    final File file = new File("F:\\projects\\Solvd\\solvdArmyExample\\",newRecruits);
-    final String wrongNewRecruits = "wrongNewRecruits";
-    Recruit r;
+    final File file = new File("src\\main\\resources\\",newRecruits);
     private static final Logger LOGGER = LogManager.getLogger(Main.class.getName());
     static public ArrayList<Recruit> listRecruits = new ArrayList<>();
 
@@ -35,8 +32,7 @@ public class RecruitingCenter implements Checkable, Counter, Sorting {
     InfantryReq infantryReq = new InfantryReq(18,60,50,130,145.0,200.0,false);
 
 
-    @Override
-    public void sorting(ArrayList<Recruit> set){
+    public Sorting sortingTheList = (set) ->{
         for (int i = 0; i < set.size(); i++) {
 
             switch(set.get(i).getPreferredField()){
@@ -145,77 +141,65 @@ public class RecruitingCenter implements Checkable, Counter, Sorting {
                     break;
             }
         }
-    }
+    };
+
+    public Counter counter = (listRecruits) -> LOGGER.info("We have " + RecruitingCenter.listRecruits.size() + " new recruits");
 
     @Override
-    public void counter(){
-        LOGGER.info("We have " + listRecruits.size() + " new recruits");
-    }
+    public boolean check(Recruit r) {
+        boolean status = true;
+        if (StringUtils.isEmpty(r.getFirstName()) || StringUtils.isBlank(r.getFirstName())){
 
-    @Override
-    public void check(Recruit r) {
-        boolean success = true;
-        while(success){
-
-            boolean status = true;
-            if (StringUtils.isEmpty(r.getFirstName()) || StringUtils.isBlank(r.getFirstName())){
-
-                LOGGER.error("New error detected: ", new WrongNameEnteredException());
-                status = false;
-                String updatedName = StringUtils.deleteWhitespace(r.getFirstName());
-                r.setFirstName(updatedName);
-
-            }
-            if(StringUtils.isEmpty(r.getLastName()) || StringUtils.isBlank(r.getLastName())){
-
-                LOGGER.error("New error detected: ", new WrongLastNameEnteredException());
-                status = false;
-                String updatedLastName = StringUtils.deleteWhitespace(r.getLastName());
-                r.setLastName(updatedLastName);
-
-            }
-            if(r.getAge() <= 18 || r.getAge() > 65){
-
-                LOGGER.error("New error detected: ", new WrongAgeEnteredException());
-                status = false;
-
-            }
-            if(r.getWeight() < 45.0 || r.getWeight() > 175.0){
-
-                LOGGER.error("New error detected: ", new WrongWeightEnteredException());
-                status = false;
-
-            }
-            if(r.getHeight() <= 150.0 || r.getHeight() > 220.0 ){
-
-                LOGGER.error("New error detected: ", new WrongHeightEnteredException());
-                status = false;
-
-            }
-            if(status){
-
-                listRecruits.add(r);
-                /*
-                try {
-                    writeStringToFile(file, String.valueOf(r), true);
-                } catch (IOException e) {
-                    e.printStackTrace();
-                }
-                */
-
-                try(FileWriter writer = new FileWriter(file, true)){
-                    writer.write(listRecruits.size() +". " + r + "\n");
-                    writer.flush();
-                }catch (IOException ex){
-                    LOGGER.error("we have IOException in file whiter");
-                }
-                LOGGER.info("Added new Recruit to Recruit List");
-
-                success = false;
-            } else{
-                success = false;
-            }
+            LOGGER.error("New error detected: ", new WrongNameEnteredException());
+            status = false;
+            String updatedName = StringUtils.deleteWhitespace(r.getFirstName());
+            LOGGER.info("Automatically deleted extra backspaces in firstname");
+            r.setFirstName(updatedName);
 
         }
+        if(StringUtils.isEmpty(r.getLastName()) || StringUtils.isBlank(r.getLastName())){
+
+            LOGGER.error("New error detected: ", new WrongLastNameEnteredException());
+            status = false;
+            String updatedLastName = StringUtils.deleteWhitespace(r.getLastName());
+            LOGGER.info("Automatically deleted extra backspaces in lastname");
+            r.setLastName(updatedLastName);
+
+        }
+        if(r.getAge() <= 18 || r.getAge() > 65){
+
+            LOGGER.error("New error detected: ", new WrongAgeEnteredException());
+            status = false;
+
+        }
+        if(r.getWeight() < 45.0 || r.getWeight() > 175.0){
+
+            LOGGER.error("New error detected: ", new WrongWeightEnteredException());
+            status = false;
+
+        }
+        if(r.getHeight() <= 150.0 || r.getHeight() > 220.0 ){
+
+            LOGGER.error("New error detected: ", new WrongHeightEnteredException());
+            status = false;
+
+        }
+        if(status){
+
+            listRecruits.add(r);
+
+            try(FileWriter writer = new FileWriter(file, true)){
+                writer.write(listRecruits.size() +". " + r + "\n");
+                writer.flush();
+            }catch (IOException ex){
+                LOGGER.error("we have IOException in file whiter");
+            }
+            LOGGER.info("Added new Recruit to Recruit List");
+            return status;
+
+            } else{
+                return status;
+        }
     }
+
 }

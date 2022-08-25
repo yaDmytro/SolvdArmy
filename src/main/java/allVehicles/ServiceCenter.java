@@ -16,7 +16,7 @@ public class ServiceCenter<T extends Vehicle> implements Repairing<T>, Checkable
     }
 
     @Override
-    public void check(Recruit r) throws WrongNameEnteredException, WrongLastNameEnteredException, WrongAgeEnteredException, WrongHeightEnteredException, WrongWeightEnteredException {
-
+    public boolean check(Recruit r) throws WrongNameEnteredException, WrongLastNameEnteredException, WrongAgeEnteredException, WrongHeightEnteredException, WrongWeightEnteredException {
+        return false;
     }
 }

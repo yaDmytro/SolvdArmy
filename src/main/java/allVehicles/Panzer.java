@@ -4,7 +4,7 @@ import java.util.Objects;
 
 public class Panzer extends Vehicle{
 
-    private String name;
+    private Tank tank;
     private boolean isWorking;
     private int cannonCaliber;
     private boolean antiRocketLauncher;
@@ -12,23 +12,12 @@ public class Panzer extends Vehicle{
 
     public Panzer(){}
 
-    public Panzer(String name, int crewQty, boolean armor, int cannonCaliber, boolean antiRocketLauncher, boolean airDefenceCapabilities, boolean isWorking){
-
-        super(crewQty, armor);
-        this.name = name;
-        this.cannonCaliber = cannonCaliber;
+    public Panzer(Tank name, boolean armor,  boolean antiRocketLauncher, boolean airDefenceCapabilities, boolean isWorking){
+        super(armor);
+        this.tank = name;
         this.antiRocketLauncher = antiRocketLauncher;
         this.airDefenceCapabilities = airDefenceCapabilities;
         this.isWorking = isWorking;
-
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
     }
 
     public boolean getIsWorking() {
@@ -66,7 +55,7 @@ public class Panzer extends Vehicle{
     @Override
     public String toString() {
         return "Panzer{" +
-                "name='" + name + '\'' +
+                "tank=" + tank +
                 ", isWorking=" + isWorking +
                 ", cannonCaliber=" + cannonCaliber +
                 ", antiRocketLauncher=" + antiRocketLauncher +
@@ -80,11 +69,11 @@ public class Panzer extends Vehicle{
         if (!(o instanceof Panzer)) return false;
         if (!super.equals(o)) return false;
         Panzer panzer = (Panzer) o;
-        return isWorking == panzer.isWorking && getCannonCaliber() == panzer.getCannonCaliber() && isAntiRocketLauncher() == panzer.isAntiRocketLauncher() && isAirDefenceCapabilities() == panzer.isAirDefenceCapabilities() && Objects.equals(getName(), panzer.getName());
+        return isWorking == panzer.isWorking && getCannonCaliber() == panzer.getCannonCaliber() && isAntiRocketLauncher() == panzer.isAntiRocketLauncher() && isAirDefenceCapabilities() == panzer.isAirDefenceCapabilities();
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(super.hashCode(), getName(), isWorking, getCannonCaliber(), isAntiRocketLauncher(), isAirDefenceCapabilities());
+        return Objects.hash(super.hashCode(), isWorking, getCannonCaliber(), isAntiRocketLauncher(), isAirDefenceCapabilities());
     }
 }

@@ -1,7 +1,12 @@
-package com.solvd.army.interfaces;
+package interfaces;
 
+import people.Recruit;
+
+import java.util.ArrayList;
+
+@FunctionalInterface
 public interface Counter {
 
-    void counter();
+    void countTheList(ArrayList<? extends Recruit> arrayList);
 
 }

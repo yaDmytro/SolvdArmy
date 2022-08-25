@@ -3,8 +3,9 @@ package interfaces;
 import people.Recruit;
 import java.util.ArrayList;
 
+@FunctionalInterface
 public interface Sorting {
 
-     void sorting(ArrayList<Recruit> set);
+     void sortingTheList(ArrayList<Recruit> set);
 
 }

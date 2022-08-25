@@ -15,6 +15,10 @@ public abstract class Vehicle {
 
     }
 
+    public Vehicle(boolean armor){
+        this.armor = armor;
+    }
+
     public Vehicle(int crewQty, boolean armor){
         this.crewQty = crewQty;
         this.armor = armor;
