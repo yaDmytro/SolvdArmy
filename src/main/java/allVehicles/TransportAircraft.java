@@ -39,7 +39,7 @@ public class TransportAircraft extends Vehicle {
     }
 
     private void printData(){
-        System.out.println("Name:" + name +" IsWorkingfield: "+ isWorking+" Number: "+ number);
+        System.out.println("Name:" + name +"; IsWorkingfield: "+ isWorking+"; Number: "+ number + ";");
     }
 
     public int getNumber() {

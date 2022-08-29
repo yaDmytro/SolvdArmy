@@ -1,0 +1,117 @@
+1. Recruit{ NAME: Dmytro Taranov; age = 41; sex = m; height = 173.7; weight = 73.0; preferredField = AIRBORNE; }
+2. Recruit{ NAME: Igor Yakubov; age = 37; sex = m; height = 181.2; weight = 83.1; preferredField = AIRBORNE; }
+3. Recruit{ NAME:       
+    Oksana Yakubovska; age = 21; sex = f; height = 185.5; weight = 63.0; preferredField = AIRFORCES; }
+4. Recruit{ NAME: Mykola Kutepov; age = 31; sex = m; height = 174.7; weight = 90.2; preferredField = INFANTRY; }
+5. Recruit{ NAME: Ignhat Gaevskyi; age = 29; sex = m; height = 172.3; weight = 66.5; preferredField = PANZER; }
+6. Recruit{ NAME: Natalia Mayevska; age = 22; sex = f; height = 170.7; weight = 55.5; preferredField = ARTILLERY; }
+7. Recruit{ NAME: John McCain; age = 47; sex = m; height = 179.5; weight = 79.0; preferredField = AIRFORCES; }
+8. Recruit{ NAME: Daria Kovalenko; age = 35; sex = f; height = 165.5; weight = 60.5; preferredField = NAVAL; }
+1. Recruit{ NAME: Dmytro Taranov; age = 41; sex = m; height = 173.7; weight = 73.0; preferredField = AIRBORNE; }
+2. Recruit{ NAME: Igor Yakubov; age = 37; sex = m; height = 181.2; weight = 83.1; preferredField = AIRBORNE; }
+3. Recruit{ NAME:       
+    Oksana Yakubovska; age = 21; sex = f; height = 185.5; weight = 63.0; preferredField = AIRFORCES; }
+4. Recruit{ NAME: Mykola Kutepov; age = 31; sex = m; height = 174.7; weight = 90.2; preferredField = INFANTRY; }
+5. Recruit{ NAME: Ignhat Gaevskyi; age = 29; sex = m; height = 172.3; weight = 66.5; preferredField = PANZER; }
+6. Recruit{ NAME: Natalia Mayevska; age = 22; sex = f; height = 170.7; weight = 55.5; preferredField = ARTILLERY; }
+7. Recruit{ NAME: John McCain; age = 47; sex = m; height = 179.5; weight = 79.0; preferredField = AIRFORCES; }
+8. Recruit{ NAME: Daria Kovalenko; age = 35; sex = f; height = 165.5; weight = 60.5; preferredField = NAVAL; }
+1. Recruit{ NAME: Dmytro Taranov; age = 41; sex = m; height = 173.7; weight = 73.0; preferredField = AIRBORNE; }
+2. Recruit{ NAME: Igor Yakubov; age = 37; sex = m; height = 181.2; weight = 83.1; preferredField = AIRBORNE; }
+3. Recruit{ NAME:       
+    Oksana Yakubovska; age = 21; sex = f; height = 185.5; weight = 63.0; preferredField = AIRFORCES; }
+4. Recruit{ NAME: Mykola Kutepov; age = 31; sex = m; height = 174.7; weight = 90.2; preferredField = INFANTRY; }
+5. Recruit{ NAME: Ignhat Gaevskyi; age = 29; sex = m; height = 172.3; weight = 66.5; preferredField = PANZER; }
+6. Recruit{ NAME: Natalia Mayevska; age = 22; sex = f; height = 170.7; weight = 55.5; preferredField = ARTILLERY; }
+7. Recruit{ NAME: John McCain; age = 47; sex = m; height = 179.5; weight = 79.0; preferredField = AIRFORCES; }
+8. Recruit{ NAME: Daria Kovalenko; age = 35; sex = f; height = 165.5; weight = 60.5; preferredField = NAVAL; }
+1. Recruit{ NAME: Dmytro Taranov; age = 41; sex = m; height = 173.7; weight = 73.0; preferredField = AIRBORNE; }
+2. Recruit{ NAME: Dmytro Taranov; age = 41; sex = m; height = 173.7; weight = 73.0; preferredField = AIRBORNE; }
+1. Recruit{ NAME: Dmytro Taranov; age = 41; sex = m; height = 173.7; weight = 73.0; preferredField = AIRBORNE; }
+2. Recruit{ NAME: Dmytro Taranov; age = 41; sex = m; height = 173.7; weight = 73.0; preferredField = AIRBORNE; }
+1. Recruit{ NAME: Dmytro Taranov; age = 41; sex = m; height = 173.7; weight = 73.0; preferredField = AIRBORNE; }
+2. Recruit{ NAME: Dmytro Taranov; age = 41; sex = m; height = 173.7; weight = 73.0; preferredField = AIRBORNE; }
+1. Recruit{ NAME: Dmytro Taranov; age = 41; sex = m; height = 173.7; weight = 73.0; preferredField = AIRBORNE; }
+2. Recruit{ NAME: Dmytro Taranov; age = 41; sex = m; height = 173.7; weight = 73.0; preferredField = AIRBORNE; }
+1. Recruit{ NAME: Dmytro Taranov; age = 41; sex = m; height = 173.7; weight = 73.0; preferredField = AIRBORNE; }
+2. Recruit{ NAME: Dmytro Taranov; age = 41; sex = m; height = 173.7; weight = 73.0; preferredField = AIRBORNE; }
+1. Recruit{ NAME: Dmytro Taranov; age = 41; sex = m; height = 173.7; weight = 73.0; preferredField = AIRBORNE; }
+2. Recruit{ NAME: Dmytro Taranov; age = 41; sex = m; height = 173.7; weight = 73.0; preferredField = AIRBORNE; }
+1. Recruit{ NAME: Dmytro Taranov; age = 41; sex = m; height = 173.7; weight = 73.0; preferredField = AIRBORNE; }
+2. Recruit{ NAME: Dmytro Taranov; age = 41; sex = m; height = 173.7; weight = 73.0; preferredField = AIRBORNE; }
+1. Recruit{ NAME: Dmytro Taranov; age = 41; sex = m; height = 173.7; weight = 73.0; preferredField = AIRBORNE; }
+2. Recruit{ NAME: Dmytro Taranov; age = 41; sex = m; height = 173.7; weight = 73.0; preferredField = AIRBORNE; }
+1. Recruit{ NAME: Dmytro Taranov; age = 41; sex = m; height = 173.7; weight = 73.0; preferredField = AIRBORNE; }
+2. Recruit{ NAME: Igor Yakubov; age = 37; sex = m; height = 181.2; weight = 83.1; preferredField = AIRBORNE; }
+3. Recruit{ NAME:       
+    Oksana Yakubovska; age = 21; sex = f; height = 185.5; weight = 63.0; preferredField = AIRFORCES; }
+4. Recruit{ NAME: Mykola Kutepov; age = 31; sex = m; height = 174.7; weight = 90.2; preferredField = INFANTRY; }
+5. Recruit{ NAME: Ignhat Gaevskyi; age = 29; sex = m; height = 172.3; weight = 66.5; preferredField = PANZER; }
+6. Recruit{ NAME: Natalia Mayevska; age = 22; sex = f; height = 170.7; weight = 55.5; preferredField = ARTILLERY; }
+7. Recruit{ NAME: John McCain; age = 47; sex = m; height = 179.5; weight = 79.0; preferredField = AIRFORCES; }
+8. Recruit{ NAME: Daria Kovalenko; age = 35; sex = f; height = 165.5; weight = 60.5; preferredField = NAVAL; }
+1. Recruit{ NAME: Dmytro Taranov; age = 41; sex = M; height = 173.7; weight = 73.0; preferredField = AIRBORNE; }
+2. Recruit{ NAME: Igor Yakubov; age = 37; sex = M; height = 181.2; weight = 83.1; preferredField = AIRBORNE; }
+3. Recruit{ NAME:       	    Oksana Yakubovska; age = 21; sex = F; height = 185.5; weight = 63.0; preferredField = AIRFORCES; }
+4. Recruit{ NAME: Mykola Kutepov; age = 31; sex = M; height = 174.7; weight = 90.2; preferredField = INFANTRY; }
+5. Recruit{ NAME: Ignhat Gaevskyi; age = 29; sex = M; height = 172.3; weight = 66.5; preferredField = PANZER; }
+6. Recruit{ NAME: Natalia Mayevska; age = 22; sex = F; height = 170.7; weight = 55.5; preferredField = ARTILLERY; }
+7. Recruit{ NAME: John McCain; age = 47; sex = M; height = 179.5; weight = 79.0; preferredField = AIRFORCES; }
+8. Recruit{ NAME: Daria Kovalenko; age = 35; sex = F; height = 165.5; weight = 60.5; preferredField = NAVAL; }
+1. Recruit{ NAME: Dmytro Taranov; age = 41; sex = M; height = 173.7; weight = 73.0; preferredField = AIRBORNE; }
+2. Recruit{ NAME: Igor Yakubov; age = 37; sex = M; height = 181.2; weight = 83.1; preferredField = AIRBORNE; }
+3. Recruit{ NAME:       	    Oksana Yakubovska; age = 21; sex = F; height = 185.5; weight = 63.0; preferredField = AIRFORCES; }
+4. Recruit{ NAME: Mykola Kutepov; age = 31; sex = M; height = 174.7; weight = 90.2; preferredField = INFANTRY; }
+5. Recruit{ NAME: Ignhat Gaevskyi; age = 29; sex = M; height = 172.3; weight = 66.5; preferredField = PANZER; }
+6. Recruit{ NAME: Natalia Mayevska; age = 22; sex = F; height = 170.7; weight = 55.5; preferredField = ARTILLERY; }
+7. Recruit{ NAME: John McCain; age = 47; sex = M; height = 179.5; weight = 79.0; preferredField = AIRFORCES; }
+8. Recruit{ NAME: Daria Kovalenko; age = 35; sex = F; height = 165.5; weight = 60.5; preferredField = NAVAL; }
+1. Recruit{ NAME: Dmytro Taranov; age = 41; sex = M; height = 173.7; weight = 73.0; preferredField = AIRBORNE; }
+2. Recruit{ NAME: Igor Yakubov; age = 37; sex = M; height = 181.2; weight = 83.1; preferredField = AIRBORNE; }
+3. Recruit{ NAME:       	    Oksana Yakubovska; age = 21; sex = F; height = 185.5; weight = 63.0; preferredField = AIRFORCES; }
+4. Recruit{ NAME: Mykola Kutepov; age = 31; sex = M; height = 174.7; weight = 90.2; preferredField = INFANTRY; }
+5. Recruit{ NAME: Ignhat Gaevskyi; age = 29; sex = M; height = 172.3; weight = 66.5; preferredField = PANZER; }
+6. Recruit{ NAME: Natalia Mayevska; age = 22; sex = F; height = 170.7; weight = 55.5; preferredField = ARTILLERY; }
+7. Recruit{ NAME: John McCain; age = 47; sex = M; height = 179.5; weight = 79.0; preferredField = AIRFORCES; }
+8. Recruit{ NAME: Daria Kovalenko; age = 35; sex = F; height = 165.5; weight = 60.5; preferredField = NAVAL; }
+1. Recruit{ NAME: Dmytro Taranov; age = 41; sex = M; height = 173.7; weight = 73.0; preferredField = AIRBORNE; }
+2. Recruit{ NAME: Igor Yakubov; age = 37; sex = M; height = 181.2; weight = 83.1; preferredField = AIRBORNE; }
+3. Recruit{ NAME:       	    Oksana Yakubovska; age = 21; sex = F; height = 185.5; weight = 63.0; preferredField = AIRFORCES; }
+4. Recruit{ NAME: Mykola Kutepov; age = 31; sex = M; height = 174.7; weight = 90.2; preferredField = INFANTRY; }
+5. Recruit{ NAME: Ignhat Gaevskyi; age = 29; sex = M; height = 172.3; weight = 66.5; preferredField = PANZER; }
+6. Recruit{ NAME: Natalia Mayevska; age = 22; sex = F; height = 170.7; weight = 55.5; preferredField = ARTILLERY; }
+7. Recruit{ NAME: John McCain; age = 47; sex = M; height = 179.5; weight = 79.0; preferredField = AIRFORCES; }
+8. Recruit{ NAME: Daria Kovalenko; age = 35; sex = F; height = 165.5; weight = 60.5; preferredField = NAVAL; }
+1. Recruit{ NAME: Dmytro Taranov; age = 41; sex = M; height = 173.7; weight = 73.0; preferredField = AIRBORNE; }
+2. Recruit{ NAME: Igor Yakubov; age = 37; sex = M; height = 181.2; weight = 83.1; preferredField = AIRBORNE; }
+3. Recruit{ NAME:       	    Oksana Yakubovska; age = 21; sex = F; height = 185.5; weight = 63.0; preferredField = AIRFORCES; }
+4. Recruit{ NAME: Mykola Kutepov; age = 31; sex = M; height = 174.7; weight = 90.2; preferredField = INFANTRY; }
+5. Recruit{ NAME: Ignhat Gaevskyi; age = 29; sex = M; height = 172.3; weight = 66.5; preferredField = PANZER; }
+6. Recruit{ NAME: Natalia Mayevska; age = 22; sex = F; height = 170.7; weight = 55.5; preferredField = ARTILLERY; }
+7. Recruit{ NAME: John McCain; age = 47; sex = M; height = 179.5; weight = 79.0; preferredField = AIRFORCES; }
+8. Recruit{ NAME: Daria Kovalenko; age = 35; sex = F; height = 165.5; weight = 60.5; preferredField = NAVAL; }
+1. Recruit{ NAME: Dmytro Taranov; age = 41; sex = M; height = 173.7; weight = 73.0; preferredField = AIRBORNE; }
+2. Recruit{ NAME: Igor Yakubov; age = 37; sex = M; height = 181.2; weight = 83.1; preferredField = AIRBORNE; }
+3. Recruit{ NAME:       	    Oksana Yakubovska; age = 21; sex = F; height = 185.5; weight = 63.0; preferredField = AIRFORCES; }
+4. Recruit{ NAME: Mykola Kutepov; age = 31; sex = M; height = 174.7; weight = 90.2; preferredField = INFANTRY; }
+5. Recruit{ NAME: Ignhat Gaevskyi; age = 29; sex = M; height = 172.3; weight = 66.5; preferredField = PANZER; }
+6. Recruit{ NAME: Natalia Mayevska; age = 22; sex = F; height = 170.7; weight = 55.5; preferredField = ARTILLERY; }
+7. Recruit{ NAME: John McCain; age = 47; sex = M; height = 179.5; weight = 79.0; preferredField = AIRFORCES; }
+8. Recruit{ NAME: Daria Kovalenko; age = 35; sex = F; height = 165.5; weight = 60.5; preferredField = NAVAL; }
+1. Recruit{ NAME: Dmytro Taranov; age = 41; sex = M; height = 173.7; weight = 73.0; preferredField = AIRBORNE; }
+2. Recruit{ NAME: Igor Yakubov; age = 37; sex = M; height = 181.2; weight = 83.1; preferredField = AIRBORNE; }
+3. Recruit{ NAME:       
+    Oksana Yakubovska; age = 21; sex = F; height = 185.5; weight = 63.0; preferredField = AIRFORCES; }
+4. Recruit{ NAME: Mykola Kutepov; age = 31; sex = M; height = 174.7; weight = 90.2; preferredField = INFANTRY; }
+5. Recruit{ NAME: Ignhat Gaevskyi; age = 29; sex = M; height = 172.3; weight = 66.5; preferredField = PANZER; }
+6. Recruit{ NAME: Natalia Mayevska; age = 22; sex = F; height = 170.7; weight = 55.5; preferredField = ARTILLERY; }
+7. Recruit{ NAME: John McCain; age = 47; sex = M; height = 179.5; weight = 79.0; preferredField = AIRFORCES; }
+8. Recruit{ NAME: Daria Kovalenko; age = 35; sex = F; height = 165.5; weight = 60.5; preferredField = NAVAL; }
+1. Recruit{ NAME: Dmytro Taranov; age = 41; sex = M; height = 173.7; weight = 73.0; preferredField = AIRBORNE; }
+2. Recruit{ NAME: Igor Yakubov; age = 37; sex = M; height = 181.2; weight = 83.1; preferredField = AIRBORNE; }
+3. Recruit{ NAME:           Oksana Yakubovska; age = 21; sex = F; height = 185.5; weight = 63.0; preferredField = AIRFORCES; }
+4. Recruit{ NAME: Mykola Kutepov; age = 31; sex = M; height = 174.7; weight = 90.2; preferredField = INFANTRY; }
+5. Recruit{ NAME: Ignhat Gaevskyi; age = 29; sex = M; height = 172.3; weight = 66.5; preferredField = PANZER; }
+6. Recruit{ NAME: Natalia Mayevska; age = 22; sex = F; height = 170.7; weight = 55.5; preferredField = ARTILLERY; }
+7. Recruit{ NAME: John McCain; age = 47; sex = M; height = 179.5; weight = 79.0; preferredField = AIRFORCES; }
+8. Recruit{ NAME: Daria Kovalenko; age = 35; sex = F; height = 165.5; weight = 60.5; preferredField = NAVAL; }
